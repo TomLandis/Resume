@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  padding: 3px;
+  margin: auto;
+  background-color: #c6e8ff;
+  font-family: 'Patrick Hand SC', cursive;
+  transition: all 0.4 ease;
+  font-size: 4em;
+}
+.boxy {
+  background-color: #dbf0ff;
+  padding: .5em;
+  display: block;
+  float: center;
+  min-width: 200px;
+  margin: auto;
+  border-radius: 73px 73px 73px 73px;
+  -moz-border-radius: 73px 73px 73px 73px;
+  -webkit-border-radius: 73px 73px 73px 73px;
+}
+#con {
+}
+button:hover {
+  border-radius: 70%;
+}
+.spinny {
+  margin: auto;
+  width: 50px;
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+.spinny:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+.btn-primary {
+  background: #214451;
+  border: 0px;
+  font-family: 'Patrick Hand SC', cursive;
+}
+.btn-info {
+  background: #995761;
+  border: 0px;
+  font-family: 'Patrick Hand SC', cursive;
+}
+.btn-info:hover {
+  background: #84313d;
+}

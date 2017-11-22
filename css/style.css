@@ -1,8 +1,145 @@
-body{ 
-  text-align: center;
-   
-  background-color:#bcd6ff;
-  }
-div {
-  padding: 2px;
+body {
+  font-family: "Raleway", sans-serif;
+  background-color: #0a1528;
 }
+
+.navbar,
+.dropdown-menu {
+  background-color: #dee2e8;
+}
+
+#jp {
+  padding-left: 5%;
+  padding-top: 3vh;
+  color: #dee2e8;
+}
+@media only screen and (max-width: 799px) {
+  .projects-holder, .projects-holder2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .project{
+    padding: 1rem;
+    margin-top: 2rem;
+    background-color: #dee2e8;
+    max-width: 200px;
+    min-width: 30vw;
+    text-align: center;
+    border-radius: 3%;
+    
+  }
+}
+
+
+@media only screen and (min-width: 800px) {
+
+
+
+
+.projects-holder {
+  padding: 1rem;
+  opacity: 0.2;
+  margin-top: 2rem;
+  background-color: #dee2e8;
+  -webkit-transition-timing-function: ease-in-out; /* Safari and Chrome */
+  transition-timing-function: ease-in-out;
+  transition: all 2s;
+  margin-left: 70vw;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+}
+.projects-holder:hover {
+  opacity: 1;
+  margin-left: 0;
+}
+.projects-holder2 {
+  padding: 1rem;
+  opacity: 0.2;
+  margin-top: 2rem;
+  background-color: #dee2e8;
+  -webkit-transition-timing-function: ease-in-out; /* Safari and Chrome */
+  transition-timing-function: ease-in-out;
+  transition: all 2s;
+  margin-right: 70vw;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+
+  
+}
+.projects-holder2:hover {
+  
+  opacity: 1;
+  margin-right: 0;
+}
+
+.project {
+  padding: 2rem;
+  max-width: 300px;
+  min-width: 200px;
+  text-align: center;
+  overflow:hidden;
+}
+.tiny {
+  font-size: 1rem;
+  padding-top: 2.5rem;
+  text-decoration: none;
+}
+  
+}
+a{
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+
+.brown{
+  color:#422316;
+}
+.brown:hover{
+  color: #5b3221;
+}
+.green{
+  color:#16421d;
+}
+.green:hover{
+  color:#22682d;
+}
+.red{
+  color:#891200;
+}
+.red:hover{
+  color:#c61b01;
+}
+.blue{
+  color:#142b68;
+}
+.blue:hover{
+  color:#1037a0;
+}
+.purple{
+  color:#4a0566;
+}
+.purple:hover{
+  color:#7d00af;
+}
+
+.footer{
+  margin-top: 1rem;
+  background-color:#dee2e8;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+.credo{
+  background-color:#dee2e8;
+  text-align: center;
+  padding-top: 0.7rem;
+  
+}
+

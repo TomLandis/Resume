@@ -1,0 +1,86 @@
+.holder{
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-evenly;
+  align-items: center;
+}
+.logo{
+  width:15vmin;
+  align-self:center;
+}
+html{
+  background-color: #e8f1ff;
+}
+.boxy{
+  transition: all 0.2s ease;
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+  width:88vw;
+  height:auto;
+  padding:0.2em;
+  border: 3px solid black;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  align-items:center;
+  margin-bottom:.3em;
+}
+.fa-6x{
+  color:#ce1b12;
+}
+.fa-2x{
+  color:#002359;
+}
+.ib{
+   transition: all 0.2s ease;
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+  border: 3px solid black;
+  max-width:22vw;
+  min-width:200px;
+  text-align:center;
+}
+.ib:hover{
+   border-radius: 0 0 0 0 ;
+  background-color:white;
+}
+.boxy:hover{
+  border-radius: 0 0 0 0 ;
+  background-color:white;
+}
+.ib p{
+  font-size:1.2em;
+}
+.ib:hover .fa-2x{
+  color:red;
+}
+.boxy h1 {
+  text-align:center;
+  font-size: 9vmin;
+}
+.boxy p {
+  text-align:center;
+  font-size: 5vmin;
+}
+#ep{
+  height: 10vw;
+}
+.infoRow{
+ 
+  width:97vw;
+  display:flex;
+  justify-content:space-evenly;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 440px){
+  .boxy{
+    flex-direction:column;
+    padding:0.3em;
+    height:100%;
+    margin-bottom:.3em;
+  }
+}
+span{
+  background-color:yellow;
+}

@@ -48,7 +48,7 @@ body {
   transition: all 2s;
   margin-left: 70vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   overflow: hidden;
 }
 .projects-holder:hover {
@@ -65,7 +65,7 @@ body {
   transition: all 2s;
   margin-right: 70vw;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   overflow: hidden;
 
   
